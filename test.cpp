@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 //исмисии
+//tryrtyrty
 
 using namespace std;
 
