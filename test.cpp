@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream1>
 //dfgdfgd
+//hghfghfg
 
 using namespace std;
 
@@ -23,13 +24,14 @@ int main()
   if(!file.is_open())
   {
     cout << "Filed open file!" << endl;
+    //ffghgf
   }
   else
   {
      file.seekg(0,ios_base::end);
     int n=file.tellg()/sizeof(_score);
      file.seekg(0,ios_base::beg);
-   // cout << n;
+
     for(int i=0;i<n;i++)
     {
        // file.write((char *)&(arScore[i]),sizeof(_score));
